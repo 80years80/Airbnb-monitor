@@ -15,16 +15,5 @@ while they are away.
 
 ------Future of Project------
 
-New features:
-Add a key dispener outside your door so your friend/neighbor/landlord can check on your place if you get an alert email. 
-Will be 3D printed, the design will be at the top a narrow opening to drop the key back in. 
-At the middle there will be a RFID scanner. The home owner will send a communication to enable RFID reading on the scanner.
-At the bottom of the scanner will be bowl to be disgusied as a birdfeeder. It is important for the key dispener to blend in,
-so no one tries to break the key out given the idea for this project is to leave your home alone for a potentially long time.
-
-*Note the RFID scanner should not always be enabled as forging an RFID master key is too easy. 
-
-
-Optimization plans:
 The Raspberry Pi and the Arduino can communicate directly through the NRF24 attena's. This is so we do not need to have the
 second arduino connected to the Pi just to recieve the data.
